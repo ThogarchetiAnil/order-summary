@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    font-family: "Red Hat Display",sans-serif;
+    min-height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    max-width: 450px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.text{
+    padding: 7%;
+    text-align: center;
+}
+.heading{
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.text p.para{
+    color: #8a8a8a;
+    margin-bottom: 25px;
+
+}
+.box{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    display: flex;
+    padding:25px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.box-left{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.box-left div{
+    margin-left: 20px;
+}
+button{
+    font-family: "Red Hat Display",sans-serif;
+}
+p{
+    font-size: 16px;
+}
+.btn{
+    background-color: blue;
+    border: 4px;
+    border-radius: 10px;
+    padding: 10px 80px;
+    color:white;
+    margin-bottom: 10px;
+}
+.btn1{
+    background-color: white;
+    border: 4px;
+    border-radius: 10px;
+    padding: 10px 80px;
+    color:darkgrey
+
+}
+.btn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.btn1:hover{
+    color: black;
+}
+.a{
+    background-color: blue;
+}
+.a:hover{
+    color: blueviolet;
+}
+@media (max-width:425px) {
+    .container{
+        max-width: 87%;
+    }
+    .heading{
+            font-size: 12px;
+    }
+    div.box{
+            padding: 12px;
+    }
+    .box-left div{
+            margin-left: 10px;
+    }
+    .text{
+            padding:9% 7%;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
